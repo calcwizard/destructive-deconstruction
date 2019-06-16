@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 2019-04-16
+  Bugfixes:
+    - Fixed a bug that occurred when mining an entity that didn't return any items, such as an entity ghost
+
+---------------------------------------------------------------------------------------------------
 Version: 0.17.1
 Date: 2019-04-15
   Features:

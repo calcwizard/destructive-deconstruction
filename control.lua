@@ -1,6 +1,6 @@
 
 function entity_decon(entity,buffer)
-	local item_name = (buffer[1]) and buffer[1].name or nil  --Lua ternary operators are trippy
+	local item_name = (not buffer.is_empty()) and buffer[1].name or nil  --Lua ternary operators are trippy
 	local blacklisted = string.find(settings.global["desdecon-blacklist"].value, entity.name) ~= nil
 	if (not blacklisted and item_name and game.recipe_prototypes[item_name]) then
 		buffer.clear()
