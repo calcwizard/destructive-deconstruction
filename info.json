@@ -1,0 +1,9 @@
+{
+	"name": "destructive-deconstruction",
+	"version": "0.17.1",
+	"factorio_version": "0.17",
+	"title": "Destructive Deconstruction",
+	"author": "calcwizard",
+	"dependencies": ["base >= 0.17"],
+	"description": "Mining a machine breaks it into its component parts with some lost along the way."
+}

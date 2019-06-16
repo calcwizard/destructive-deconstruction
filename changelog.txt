@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 2019-04-15
+  Features:
+    - Released the mod.
+    - Mining entities destroys them, yielding half the materials that went into building it.
+    - Material yield percentage can be configured from 0 (all materials lost) to 1 (all materials recovered).
+    - Entities can be excluded from this mod so that mining them returns the item as normal.
